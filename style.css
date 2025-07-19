@@ -1,0 +1,116 @@
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.diff {
+  color: #00bcd4;
+  margin-right: 5px;
+}
+
+.col {
+  color: #ff4081;
+}
+
+
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+}
+
+.search-wrapper {
+  position: relative;
+  width: 50vh; /* या आपकी पसंद की width */
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 10px 40px 10px 12px; /* right में जगह icon के लिए */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.search-wrapper i {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #555;
+  pointer-events: none; /* ताकि icon पर click input ही trigger करे */
+  transform: translate(7vh, -1vh);
+}
+
+
+.nav-item a:hover{
+    color: #39ff14;
+}
+
+
+
+
+.sing{
+  height: 20px;
+  width: 100vw;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.sing:hover{
+  cursor: pointer;
+  color: #333;
+}
+
+.home {
+  height: 30vh;
+  width: 90vw;
+  margin: 40px;
+  background-image: url('Sign-up-1.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateX(3vh);
+}
+
+.boxs {
+  height: 50vh;
+  margin: 30px;
+  width: 60vw;
+  background-image: url('a\ light\,\ clean\ backg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateX(33vh);
+}
+
+.box{
+  height: 40vh;
+  width: 30vh;
+  margin: 35px;
+  margin-top: 10px;
+  transform: translateY(2vh);
+  background-color: #555;
+  display: inline-block;
+}
