@@ -24,8 +24,6 @@
   color: #ff4081;
 }
 
-
-
 .nav-item {
   display: flex;
   align-items: center;
@@ -61,15 +59,11 @@
   transform: translate(7vh, -1vh);
 }
 
-
-.nav-item a:hover{
-    color: #39ff14;
+.nav-item a:hover {
+  color: #39ff14;
 }
 
-
-
-
-.sing{
+.sing {
   height: 20px;
   width: 100vw;
   background-color: antiquewhite;
@@ -77,8 +71,7 @@
   justify-content: space-evenly;
 }
 
-
-.sing:hover{
+.sing:hover {
   cursor: pointer;
   color: #333;
 }
@@ -87,7 +80,7 @@
   height: 30vh;
   width: 90vw;
   margin: 40px;
-  background-image: url('Sign-up-1.webp');
+  background-image: url("Sign-up-1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,19 +91,21 @@
   height: 50vh;
   margin: 30px;
   width: 60vw;
-  background-image: url('a\ light\,\ clean\ backg.png');
+  background-image: url("a\ light\,\ clean\ backg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transform: translateX(33vh);
 }
 
-.box{
+.box {
   height: 40vh;
   width: 30vh;
   margin: 35px;
   margin-top: 10px;
   transform: translateY(2vh);
-  background-color: #555;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: inline-block;
 }
