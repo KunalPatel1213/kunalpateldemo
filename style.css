@@ -109,3 +109,51 @@
   background-size: cover;
   display: inline-block;
 }
+
+
+.menu{
+  height: 30vh;
+  width: 170vh;
+  margin: 30px;
+  transform: translate(14vh, 4vh);
+
+}
+
+.image {
+  height: 25vh;
+  width: 30vh;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+.image p{
+  transform: translate(10vh, 24vh);
+  font-weight: bolder;
+}
+
+.image p{
+    position: relative;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 0;
+  }
+
+  .image p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #ff9800;
+    transition: width 0.3s ease;
+  }
+
+  .image p:hover::after {
+    width: 100%;
+  }
