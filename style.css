@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .navbar {
   background-color: #ffffff;
   display: flex;
@@ -60,7 +64,7 @@
 }
 
 .nav-item a:hover {
-  color: #39ff14;
+  color: #00adb5;
 }
 
 .sing {
@@ -110,13 +114,11 @@
   display: inline-block;
 }
 
-
-.menu{
+.menu {
   height: 30vh;
   width: 170vh;
   margin: 30px;
   transform: translate(14vh, 4vh);
-
 }
 
 .image {
@@ -129,31 +131,68 @@
   display: inline-block;
 }
 
-.image p{
+.image p {
   transform: translate(10vh, 24vh);
   font-weight: bolder;
 }
 
-.image p{
-    position: relative;
-    display: inline-block;
-    color: #333;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 5px 0;
-  }
+.image p {
+  position: relative;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 0;
+}
 
-  .image p::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0%;
-    height: 2px;
-    background-color: #ff9800;
-    transition: width 0.3s ease;
-  }
+.image p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #ff9800;
+  transition: width 0.3s ease;
+}
 
-  .image p:hover::after {
-    width: 100%;
-  }
+.image p:hover::after {
+  width: 100%;
+}
+
+.h33 {
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  transform: translateY(1vh);
+  text-decoration: underline;
+  color: #6D5D6E;
+}
+
+.about {
+  height: 70vh;
+  width: 80vh;
+  margin: 80px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: oblique;
+  background-image: url('a\ light\,\ clean\ backg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about p{
+  margin: 20px;
+}
+
+.img {
+  background-image: url('yourchoice.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 80vh;
+  transform: translate(100vh, -82vh);
+}
