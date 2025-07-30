@@ -217,11 +217,39 @@
   border-radius: 5px;
 }
 
+ 
+
+.box p {
+  /* height: 20vh; */
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  transform: translateY(25vh);
+  background-color: white;
+  /* padding: 20px; */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px  white;
+  transition: all 0.5s ease;
+  position: relative;
+  opacity: 0;
+}
+
+/* 🪄 Hover effect */
+.box:hover p {
+  /* transform: translateY(0); */
+  opacity: 1;
+  background-color: white; /* Slightly more opaque on hover */
+}
+
+
+
+
 .buy{
   height: 5vh;
   width: 30vh;
   margin: 20px;
-  transform: translate(-2.6vh, 28vh);
+  transform: translate(-2.6vh, 25vh);
   background-color: green;
   color: #fff;
   font-size: larger;
